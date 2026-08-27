@@ -28,4 +28,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://jagolabs.tech/impact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jagolabs.tech/impact.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://jagolabs.tech/impact.html?lang=pt" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://jagolabs.tech/impact.html?lang=es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jagolabs.tech/impact.html" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
