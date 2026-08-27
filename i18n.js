@@ -1,0 +1,368 @@
+const translations = {
+  en: {
+    "meta.title": "JAGO Labs — Build what helps.",
+    "meta.description": "JAGO Labs is a product studio that turns everyday problems into thoughtful digital products.",
+    "nav.home": "Home",
+    "nav.about": "About",
+    "nav.products": "Products",
+    "nav.approach": "Approach",
+    "nav.contact": "Contact",
+    "nav.cta": "Let's build",
+    "hero.eyebrow": "HUMAN-CENTRED PRODUCT LAB",
+    "hero.title1": "Build what",
+    "hero.title2": "helps.",
+    "hero.lead": "JAGO Labs is a product studio that turns everyday problems into thoughtful digital products that make life simpler, safer and better.",
+    "hero.cta1": "Explore our products",
+    "hero.cta2": "Our approach",
+    "products.eyebrow": "OUR PRODUCTS",
+    "products.heading": "Solutions for everyday life.",
+    "products.sub1": "Digital products focused on real needs.",
+    "products.sub2": "Designed with people in mind. Built with care.",
+    "curumim.tagline": "Financial Clarity",
+    "curumim.desc": "Personal finance made simple. Plan, track and make smarter decisions with confidence.",
+    "curumim.link": "Learn more",
+    "curumim.balanceLabel": "Total balance",
+    "curumim.income": "Income",
+    "curumim.expenses": "Expenses",
+    "curumim.health": "Good · 78%",
+    "beeaware.tagline": "Community Safety",
+    "beeaware.desc": "Share and view real-time incidents anonymously. Together, we build safer communities.",
+    "beeaware.link": "Learn more",
+    "beeaware.newIncident": "+ New incident",
+    "next.title": "What's next",
+    "next.tagline": "New products in progress",
+    "next.desc": "JAGO Labs keeps exploring real-life friction and turning the right problems into useful products.",
+    "next.link": "Follow our work",
+    "next.today": "Today",
+    "next.question": "What helps next?",
+    "next.task1": "Observe the problem",
+    "next.task2": "Prototype the solution",
+    "next.task3": "Build with care",
+    "next.task4": "Learn and improve",
+    "values.title1": "People first",
+    "values.desc1": "We start with real human needs and design with empathy.",
+    "values.title2": "Built to last",
+    "values.desc2": "Clean architecture, modern tech and continuous improvement.",
+    "values.title3": "Privacy by design",
+    "values.desc3": "We respect your data and protect your privacy.",
+    "values.title4": "Always evolving",
+    "values.desc4": "We learn, iterate and build what helps next.",
+    "cta.title1": "Let's build",
+    "cta.title2": "what",
+    "cta.title3": "helps.",
+    "cta.lead": "We create thoughtful digital products that solve real problems and improve everyday life.",
+    "cta.button": "Start a conversation",
+    "footer.rights": "All rights reserved.",
+    "lang.label": "Language",
+    "contact.modalTitle": "Let's talk",
+    "contact.modalLead": "Tell us a bit about you and what you have in mind — we'll get back to you.",
+    "contact.nameLabel": "Name",
+    "contact.contactLabel": "Email or phone",
+    "contact.messageLabel": "Message",
+    "contact.send": "Send",
+    "contact.orDirect": "Prefer to write directly?",
+    "about.meta.title": "About — JAGO Labs",
+    "about.meta.description": "Meet JAGO Labs: a product, technology and consulting lab built to simplify decisions and expand people's autonomy.",
+    "about.eyebrow": "ABOUT JAGO LABS",
+    "about.title1": "About",
+    "about.title2": "JAGO Labs",
+    "about.intro": "<p>JAGO Labs was born from a simple conviction: technology should make life simpler, decisions more conscious, and people more able to choose their own paths.</p><p>The name <strong>JAGO</strong> came from combining four initials with a personal meaning for its founder. What began as a private reference grew into something much bigger: building a company that creates, experiments, and puts technology to work on real problems.</p><p>That's where <strong>Labs</strong> comes from.</p><p>We're a lab for ideas, products and solutions.</p><p>We build apps, develop digital products, and offer business and financial consulting for people and organizations who believe there's always a better way to do things.</p><p>We don't build technology just because we can.</p><p>We build it when it can be <strong>useful</strong>.</p>",
+    "about.h.whatWeDo": "What we do",
+    "about.whatWeDo": "<p>At JAGO Labs, we combine <strong>technology, product, artificial intelligence, finance and strategy</strong> to turn everyday problems into simpler, more accessible solutions.</p><p>Sometimes that means building an app that helps someone better understand their own finances.</p><p>Sometimes it means using public data and community input to help someone make more informed decisions about their safety and how they get around.</p><p>Sometimes it means helping a company simplify processes, improve financial management, automate repetitive work, or turn complex data into clearer decisions.</p><p>In every case, the question that guides us is the same:</p><p><strong>does this genuinely improve someone's life?</strong></p><p>If the answer is yes, there's probably something worth building.</p>",
+    "about.h.worldview": "Our view of the world",
+    "about.worldview": "<p>We live in a world increasingly shaped by algorithms, models, patterns and decisions made by someone else.</p><p>We're constantly told what to buy, where to go, how to work, how much to spend, and even what success should look like.</p><p>At JAGO Labs, we believe in a different direction.</p><p><strong>We believe in the individual.</strong></p><p>We believe technology should expand people's ability to make decisions — not replace it.</p><p>Data should bring context.</p><p>Artificial intelligence should expand possibilities.</p><p>Finance should offer freedom and clarity.</p><p>Technology should give time back.</p><p>And good tools should let each person build answers that fit their own reality.</p><p>That's why we don't want to build products that simply tell people what to do.</p><p>We want to build tools that help them <strong>understand better, decide better and act with more autonomy</strong>.</p>",
+    "about.h.mission": "Our mission",
+    "about.mission": "<p>Our mission is to <strong>develop technology and solutions that simplify decisions, reduce friction and increase the autonomy of people and organizations</strong>.</p><p>We do this across three main fronts:</p><ul><li><strong>Digital products and apps</strong>, built to solve real everyday problems.</li><li><strong>Business and financial consulting</strong>, turning complexity, data and processes into simpler, more efficient decisions.</li><li><strong>Technology and artificial intelligence</strong>, applied in practical ways to automate tasks, expand capabilities, and let people and businesses do more with less effort.</li></ul><p>We don't believe in innovation as an end in itself.</p><p>For us, innovation only matters when it creates real usefulness.</p>",
+    "about.h.techPurpose": "Technology with purpose",
+    "about.techPurpose": "<p>Some of the most important problems in our lives don't look, at first glance, like technology problems.</p><p>How to manage money better.</p><p>How to make decisions with less anxiety.</p><p>How to spot risks around us.</p><p>How to choose a safer path.</p><p>How to cut out hours of repetitive work.</p><p>How to turn data into information that's actually useful.</p><p>How to give small organizations access to tools once reserved for big companies.</p><p>That's exactly the space we want to work in.</p><p>Because a small improvement to a tool can often mean a big improvement to someone's daily life.</p>",
+    "about.h.experiment": "Experiment. Learn. Improve.",
+    "about.experiment": "<p>The word <strong>Labs</strong> also describes how we work.</p><p>We experiment.</p><p>We build.</p><p>We test.</p><p>We get it wrong.</p><p>We learn.</p><p>We improve.</p><p>And we put real products in the hands of real people.</p><p>We'd rather ship a simple solution that works than chase an extraordinary idea that never leaves the page.</p><p>This spirit of experimentation lets JAGO Labs explore different areas — from personal finance and community safety to artificial intelligence, productivity and business consulting — while always holding on to the same principle:</p><p><strong>solve real problems in a way that's intelligent, simple and human.</strong></p>",
+    "about.h.future": "The future we want to help build",
+    "about.future": "<p>We don't believe the future should be defined only by the biggest companies, the biggest algorithms, or the institutions with the most data.</p><p>We believe people should also have tools to take part in building it.</p><ul><li>Tools to understand.</li><li>Tools to compare.</li><li>Tools to decide.</li><li>Tools to collaborate.</li><li>Tools to look out for one another.</li></ul><p>Because technology doesn't have to create only efficiency.</p><p>It can also create <strong>autonomy, safety, awareness and opportunity</strong>.</p><p>And that's exactly the kind of technology we want to build.</p>",
+    "about.closing": "<p class=\"about-brand\">JAGO Labs</p><p class=\"about-tagline\">Technology for better decisions.<br>Tools for more capable people.</p>",
+    "roadmap.meta.title": "What's next — JAGO Labs",
+    "roadmap.meta.description": "A look at what JAGO Labs is building next: finance and management tools for bars, farms, law firms, creators, startups and personal finance.",
+    "roadmap.eyebrow": "WHAT'S NEXT",
+    "roadmap.title1": "What's",
+    "roadmap.title2": "next.",
+    "roadmap.intro": "<p>JAGO Labs is in constant motion.</p><p>Our work doesn't end when a product ships or a process improves. We're constantly watching for real problems, spotting friction, and turning those openings into new solutions.</p><p>Today, some of what we're building reflects exactly that mindset: using technology, finance and management to make operations simpler, decisions clearer, and businesses more sustainable.</p>",
+    "roadmap.v1.title": "Financial management for bars &amp; restaurants",
+    "roadmap.v1.body": "<p>We're building tools for the financial organization of bars and restaurants, focused on simple control, visibility and decision-making.</p><p>That includes lightweight apps for tracking revenue, expenses, margins, cash flow and the key numbers of the business — without turning management into one more complicated task.</p><p>The idea is simple: <strong>give the operator a clear view of what's happening in the business, right when the decision needs to be made.</strong></p>",
+    "roadmap.v2.title": "Technology for field management",
+    "roadmap.v2.body": "<p>We're also exploring digital tools to support property and farm management directly out in the field.</p><p>The goal is to bring together, in a practical way, relevant information about crops, land conditions, water quality, operational records and activity tracking.</p><p>More than digitizing information, we want to help people in the field turn scattered data into useful knowledge for faster, better, more sustainable decisions.</p>",
+    "roadmap.v3.title": "Financial management &amp; efficiency for law firms",
+    "roadmap.v3.body": "<p>We're working on solutions for law firms that combine financial management, process improvement and greater visibility into the operation.</p><p>That means looking at revenue, costs, profitability, productivity, capacity and workflow as one integrated picture.</p><p>The goal isn't just to add more controls.</p><p>It's to help the firm better understand where it creates value, where it loses efficiency, and how it can grow in a more structured way.</p>",
+    "roadmap.v4.title": "Financial management for creators &amp; startups",
+    "roadmap.v4.body": "<p>New business models call for new ways of managing money.</p><p>Digital creators, influencers and startups often grow fast — faster than the financial structure needed to keep up.</p><p>We're building approaches to simplify that, bringing more clarity around revenue, costs, taxes, investments, cash flow, scenarios and financial sustainability.</p><p>Our goal is to let people building something new keep creating — without losing control of the business along the way.</p>",
+    "roadmap.v5.title": "Personal financial coaching &amp; money behavior",
+    "roadmap.v5.body": "<p>We're also going deeper on a theme at the core of JAGO Labs' vision: the relationship between people and money.</p><p>Our approach to personal financial coaching starts from one core principle:</p><p><strong>finance isn't just math. It's behavior.</strong></p><p>Financial planning only works when it respects reality, priorities, and the way each person actually makes decisions.</p><p>That's why our work combines financial organization, behavioral insight and practical tools to help people better understand their choices and build a more conscious relationship with money.</p>",
+    "roadmap.h.sectors": "Different sectors. Same purpose.",
+    "roadmap.sectorTags": "<span class=\"sector-tag\">Bars &amp; restaurants</span><span class=\"sector-tag\">Agriculture</span><span class=\"sector-tag\">Law firms</span><span class=\"sector-tag\">Digital creators</span><span class=\"sector-tag\">Startups</span><span class=\"sector-tag\">Personal finance</span>",
+    "roadmap.closing": "<p>At first glance, these are completely different worlds.</p><p>For us, there's one thing they all share:</p><p><strong>people trying to make good decisions in complex environments.</strong></p><p>That's exactly where we want to be.</p><p>Spotting the problem.</p><p>Simplifying the process.</p><p>Organizing the information.</p><p>Building the tool.</p><p>And giving people back what we believe is one of the most important things technology can offer:</p><p><strong>more clarity to decide, and more autonomy to act.</strong></p><p>That's what's next.</p><p>And probably plenty of things we haven't even imagined yet.</p>"
+  },
+  pt: {
+    "meta.title": "JAGO Labs — Construa o que ajuda.",
+    "meta.description": "A JAGO Labs é um estúdio de produtos que transforma problemas do dia a dia em produtos digitais pensados com cuidado.",
+    "nav.home": "Início",
+    "nav.about": "Sobre",
+    "nav.products": "Produtos",
+    "nav.approach": "Abordagem",
+    "nav.contact": "Contato",
+    "nav.cta": "Vamos construir",
+    "hero.eyebrow": "LABORATÓRIO DE PRODUTOS CENTRADO NO HUMANO",
+    "hero.title1": "Construa o que",
+    "hero.title2": "ajuda.",
+    "hero.lead": "A JAGO Labs é um estúdio de produtos que transforma problemas do dia a dia em produtos digitais pensados para tornar a vida mais simples, segura e melhor.",
+    "hero.cta1": "Conheça nossos produtos",
+    "hero.cta2": "Nossa abordagem",
+    "products.eyebrow": "NOSSOS PRODUTOS",
+    "products.heading": "Soluções para o dia a dia.",
+    "products.sub1": "Produtos digitais focados em necessidades reais.",
+    "products.sub2": "Pensados para pessoas. Construídos com cuidado.",
+    "curumim.tagline": "Clareza Financeira",
+    "curumim.desc": "Finanças pessoais de forma simples. Planeje, acompanhe e tome decisões mais inteligentes com confiança.",
+    "curumim.link": "Saiba mais",
+    "curumim.balanceLabel": "Saldo total",
+    "curumim.income": "Receitas",
+    "curumim.expenses": "Despesas",
+    "curumim.health": "Bom · 78%",
+    "beeaware.tagline": "Segurança Comunitária",
+    "beeaware.desc": "Compartilhe e veja ocorrências em tempo real, de forma anônima. Juntos, construímos comunidades mais seguras.",
+    "beeaware.link": "Saiba mais",
+    "beeaware.newIncident": "+ Nova ocorrência",
+    "next.title": "O que vem a seguir",
+    "next.tagline": "Novos produtos em desenvolvimento",
+    "next.desc": "A JAGO Labs continua explorando as dificuldades da vida real e transformando os problemas certos em produtos úteis.",
+    "next.link": "Acompanhe nosso trabalho",
+    "next.today": "Hoje",
+    "next.question": "O que ajuda a seguir?",
+    "next.task1": "Observar o problema",
+    "next.task2": "Prototipar a solução",
+    "next.task3": "Construir com cuidado",
+    "next.task4": "Aprender e melhorar",
+    "values.title1": "Pessoas em primeiro lugar",
+    "values.desc1": "Começamos com necessidades humanas reais e projetamos com empatia.",
+    "values.title2": "Feito para durar",
+    "values.desc2": "Arquitetura limpa, tecnologia moderna e melhoria contínua.",
+    "values.title3": "Privacidade por padrão",
+    "values.desc3": "Respeitamos seus dados e protegemos sua privacidade.",
+    "values.title4": "Sempre evoluindo",
+    "values.desc4": "Aprendemos, iteramos e construímos o que ajuda a seguir.",
+    "cta.title1": "Vamos construir",
+    "cta.title2": "o que",
+    "cta.title3": "ajuda.",
+    "cta.lead": "Criamos produtos digitais pensados com cuidado, que resolvem problemas reais e melhoram o dia a dia.",
+    "cta.button": "Iniciar uma conversa",
+    "footer.rights": "Todos os direitos reservados.",
+    "lang.label": "Idioma",
+    "contact.modalTitle": "Vamos conversar",
+    "contact.modalLead": "Conte um pouco sobre você e o que tem em mente — responderemos em breve.",
+    "contact.nameLabel": "Nome",
+    "contact.contactLabel": "E-mail ou telefone",
+    "contact.messageLabel": "Mensagem",
+    "contact.send": "Enviar",
+    "contact.orDirect": "Prefere escrever diretamente?",
+    "about.meta.title": "Sobre — JAGO Labs",
+    "about.meta.description": "Conheça a JAGO Labs: um laboratório de produtos, tecnologia e consultoria que existe para simplificar decisões e ampliar a autonomia das pessoas.",
+    "about.eyebrow": "SOBRE A JAGO LABS",
+    "about.title1": "Sobre a",
+    "about.title2": "JAGO Labs",
+    "about.intro": "<p>A <strong>JAGO Labs</strong> nasceu de uma convicção simples: tecnologia deve tornar a vida mais simples, as decisões mais conscientes e as pessoas mais capazes de escolher seus próprios caminhos.</p><p>O nome <strong>JAGO</strong> nasceu da combinação de quatro iniciais com um significado pessoal para o seu fundador. Algo que começou como uma referência particular acabou se transformando em uma ideia muito maior: construir uma empresa que cria, experimenta e coloca tecnologia a serviço de problemas reais.</p><p>É daí que vem o <strong>Labs</strong>.</p><p>Somos um laboratório de ideias, produtos e soluções.</p><p>Criamos aplicativos, desenvolvemos produtos digitais e oferecemos consultoria empresarial e financeira para pessoas e organizações que acreditam que sempre existe uma maneira melhor de fazer as coisas.</p><p>Não desenvolvemos tecnologia simplesmente porque ela é possível.</p><p>Desenvolvemos quando ela pode ser <strong>útil</strong>.</p>",
+    "about.h.whatWeDo": "O que fazemos",
+    "about.whatWeDo": "<p>Na JAGO Labs, combinamos <strong>tecnologia, produto, inteligência artificial, finanças e estratégia</strong> para transformar problemas cotidianos em soluções mais simples e acessíveis.</p><p>Isso pode significar criar um aplicativo que ajude alguém a entender melhor sua própria vida financeira.</p><p>Pode significar usar dados públicos e informações da comunidade para ajudar uma pessoa a tomar decisões mais conscientes sobre sua segurança e seus deslocamentos.</p><p>Pode significar ajudar uma empresa a simplificar processos, melhorar sua gestão financeira, automatizar atividades repetitivas ou transformar dados complexos em decisões mais claras.</p><p>Em todos esses casos, a pergunta que nos orienta é a mesma:</p><p><strong>isso realmente melhora a vida de alguém?</strong></p><p>Se a resposta for sim, provavelmente existe algo que vale a pena construir.</p>",
+    "about.h.worldview": "Nossa visão de mundo",
+    "about.worldview": "<p>Vivemos em um mundo cada vez mais orientado por algoritmos, modelos, padrões e decisões tomadas por terceiros.</p><p>Somos constantemente informados sobre o que devemos comprar, onde devemos ir, como devemos trabalhar, quanto devemos gastar e até mesmo o que deveria representar sucesso.</p><p>Na JAGO Labs, acreditamos em outra direção.</p><p><strong>Acreditamos no indivíduo.</strong></p><p>Acreditamos que tecnologia deve ampliar a capacidade humana de tomar decisões — não substituí-la.</p><p>Dados devem trazer contexto.</p><p>Inteligência artificial deve ampliar possibilidades.</p><p>Finanças devem oferecer liberdade e clareza.</p><p>Tecnologia deve devolver tempo.</p><p>E boas ferramentas devem permitir que cada pessoa construa respostas adequadas à sua própria realidade.</p><p>Por isso, não queremos criar produtos que simplesmente digam às pessoas o que fazer.</p><p>Queremos criar ferramentas que as ajudem a <strong>entender melhor, decidir melhor e agir com mais autonomia</strong>.</p>",
+    "about.h.mission": "Nossa missão",
+    "about.mission": "<p>Nossa missão é <strong>desenvolver tecnologia e soluções que simplifiquem decisões, reduzam fricções e aumentem a autonomia das pessoas e das organizações</strong>.</p><p>Fazemos isso através de três grandes frentes:</p><ul><li><strong>Produtos digitais e aplicativos</strong>, criados para resolver problemas reais do dia a dia.</li><li><strong>Consultoria empresarial e financeira</strong>, transformando complexidade, dados e processos em decisões mais simples e eficientes.</li><li><strong>Tecnologia e inteligência artificial</strong>, utilizadas de forma prática para automatizar tarefas, ampliar capacidades e permitir que pessoas e empresas façam mais com menos esforço.</li></ul><p>Não acreditamos em inovação como um fim em si mesma.</p><p>Para nós, inovação só faz sentido quando gera utilidade.</p>",
+    "about.h.techPurpose": "Tecnologia com propósito",
+    "about.techPurpose": "<p>Alguns dos problemas mais importantes da nossa vida não parecem, à primeira vista, problemas de tecnologia.</p><p>Como organizar melhor o dinheiro.</p><p>Como tomar decisões com menos ansiedade.</p><p>Como identificar riscos ao nosso redor.</p><p>Como escolher um caminho mais seguro.</p><p>Como eliminar horas de trabalho repetitivo.</p><p>Como transformar dados em informação realmente útil.</p><p>Como permitir que pequenas organizações tenham acesso a ferramentas que antes estavam disponíveis apenas para grandes empresas.</p><p>É exatamente nesses espaços que queremos trabalhar.</p><p>Porque muitas vezes uma pequena melhoria em uma ferramenta pode representar uma grande melhoria na rotina de alguém.</p>",
+    "about.h.experiment": "Experimentar. Aprender. Melhorar.",
+    "about.experiment": "<p>A palavra <strong>Labs</strong> também representa nossa forma de trabalhar.</p><p>Nós experimentamos.</p><p>Construímos.</p><p>Testamos.</p><p>Erramos.</p><p>Aprendemos.</p><p>Melhoramos.</p><p>E colocamos produtos reais nas mãos de pessoas reais.</p><p>Preferimos uma solução simples que funciona a uma ideia extraordinária que nunca sai do papel.</p><p>Esse espírito de experimentação permite que a JAGO Labs explore diferentes áreas — de finanças pessoais e segurança comunitária a inteligência artificial, produtividade e consultoria empresarial — mantendo sempre o mesmo princípio:</p><p><strong>resolver problemas reais de maneira inteligente, simples e humana.</strong></p>",
+    "about.h.future": "O futuro que queremos ajudar a construir",
+    "about.future": "<p>Não acreditamos que o futuro deva ser definido apenas pelas maiores empresas, pelos maiores algoritmos ou pelas instituições com mais dados.</p><p>Acreditamos que as pessoas também devem ter ferramentas para participar dessa construção.</p><ul><li>Ferramentas para compreender.</li><li>Ferramentas para comparar.</li><li>Ferramentas para decidir.</li><li>Ferramentas para colaborar.</li><li>Ferramentas para cuidar umas das outras.</li></ul><p>Porque tecnologia não precisa criar apenas eficiência.</p><p>Ela também pode criar <strong>autonomia, segurança, consciência e oportunidade</strong>.</p><p>E é exatamente esse tipo de tecnologia que queremos construir.</p>",
+    "about.closing": "<p class=\"about-brand\">JAGO Labs</p><p class=\"about-tagline\">Technology for better decisions.<br>Tools for more capable people.</p>",
+    "roadmap.meta.title": "O que vem a seguir — JAGO Labs",
+    "roadmap.meta.description": "O que a JAGO Labs está construindo a seguir: ferramentas de finanças e gestão para bares, campo, advocacia, criadores, startups e finanças pessoais.",
+    "roadmap.eyebrow": "O QUE VEM A SEGUIR",
+    "roadmap.title1": "O que vem",
+    "roadmap.title2": "a seguir.",
+    "roadmap.intro": "<p>A JAGO Labs está em movimento contínuo.</p><p>Nosso trabalho não termina quando um produto é lançado ou um processo é melhorado. Estamos constantemente observando problemas reais, identificando fricções e transformando essas oportunidades em novas soluções.</p><p>Hoje, algumas das frentes em desenvolvimento refletem exatamente essa visão: usar tecnologia, finanças e gestão para tornar operações mais simples, decisões mais claras e negócios mais sustentáveis.</p>",
+    "roadmap.v1.title": "Gestão financeira para bares e restaurantes",
+    "roadmap.v1.body": "<p>Estamos desenvolvendo soluções voltadas à organização financeira de bares e restaurantes, com foco em controle simples, visibilidade e tomada de decisão.</p><p>Isso inclui o desenvolvimento de aplicações leves para acompanhamento de receitas, despesas, margens, fluxo de caixa e principais indicadores do negócio — sem transformar a gestão em mais uma tarefa complexa.</p><p>A ideia é simples: <strong>dar ao operador uma visão clara do que está acontecendo no negócio, no momento em que a decisão precisa ser tomada.</strong></p>",
+    "roadmap.v2.title": "Tecnologia para gestão em campo",
+    "roadmap.v2.body": "<p>Também estamos explorando soluções digitais para apoiar a gestão de propriedades e operações agrícolas diretamente em campo.</p><p>O objetivo é reunir, de forma prática, informações relevantes sobre plantações, condições da terra, qualidade da água, registros operacionais e acompanhamento de atividades.</p><p>Mais do que digitalizar informações, queremos ajudar quem está no campo a transformar dados dispersos em conhecimento útil para decisões melhores, mais rápidas e mais sustentáveis.</p>",
+    "roadmap.v3.title": "Gestão financeira e eficiência para escritórios de advocacia",
+    "roadmap.v3.body": "<p>Estamos trabalhando em soluções voltadas a escritórios de advocacia que combinam gestão financeira, melhoria de processos e maior visibilidade sobre a operação.</p><p>Isso significa olhar para receitas, custos, rentabilidade, produtividade, capacidade e fluxo de trabalho de forma integrada.</p><p>A proposta não é simplesmente criar mais controles.</p><p>É ajudar o escritório a entender melhor onde gera valor, onde perde eficiência e como pode crescer de forma mais estruturada.</p>",
+    "roadmap.v4.title": "Gestão financeira para influenciadores digitais e startups",
+    "roadmap.v4.body": "<p>Novos modelos de negócio exigem novas formas de gestão.</p><p>Influenciadores digitais, criadores e startups frequentemente crescem muito rápido antes que exista uma estrutura financeira preparada para acompanhar esse crescimento.</p><p>Estamos desenvolvendo abordagens para simplificar esse processo, trazendo maior clareza sobre receita, custos, impostos, investimentos, fluxo de caixa, cenários e sustentabilidade financeira.</p><p>Nosso objetivo é permitir que quem está construindo algo novo possa continuar criando — sem perder o controle do negócio no caminho.</p>",
+    "roadmap.v5.title": "Consultoria financeira pessoal e comportamento financeiro",
+    "roadmap.v5.body": "<p>Também seguimos aprofundando uma frente que está no centro da visão da JAGO Labs: a relação entre pessoas e dinheiro.</p><p>Nossa abordagem de consultoria financeira pessoal parte de um princípio fundamental:</p><p><strong>finanças não são apenas matemática. São comportamento.</strong></p><p>Planejamento financeiro só funciona quando respeita a realidade, as prioridades e a forma como cada pessoa toma decisões.</p><p>Por isso, nosso trabalho busca combinar organização financeira, análise de comportamento e ferramentas práticas que ajudem as pessoas a compreender melhor suas escolhas e construir uma relação mais consciente com o dinheiro.</p>",
+    "roadmap.h.sectors": "Diferentes setores. O mesmo propósito.",
+    "roadmap.sectorTags": "<span class=\"sector-tag\">Bares e restaurantes</span><span class=\"sector-tag\">Agricultura</span><span class=\"sector-tag\">Escritórios de advocacia</span><span class=\"sector-tag\">Criadores digitais</span><span class=\"sector-tag\">Startups</span><span class=\"sector-tag\">Finanças pessoais</span>",
+    "roadmap.closing": "<p>À primeira vista, são mundos completamente diferentes.</p><p>Para nós, existe um elemento comum entre todos eles:</p><p><strong>pessoas tentando tomar boas decisões em ambientes complexos.</strong></p><p>É exatamente aí que queremos estar.</p><p>Identificando o problema.</p><p>Simplificando o processo.</p><p>Organizando a informação.</p><p>Construindo a ferramenta.</p><p>E devolvendo às pessoas aquilo que acreditamos ser uma das coisas mais importantes que a tecnologia pode oferecer:</p><p><strong>mais clareza para decidir e mais autonomia para agir.</strong></p><p>É isso que vem a seguir.</p><p>E provavelmente muitas outras coisas que ainda nem imaginamos.</p>"
+  },
+  es: {
+    "meta.title": "JAGO Labs — Construye lo que ayuda.",
+    "meta.description": "JAGO Labs es un estudio de productos que convierte problemas cotidianos en productos digitales pensados con cuidado.",
+    "nav.home": "Inicio",
+    "nav.about": "Nosotros",
+    "nav.products": "Productos",
+    "nav.approach": "Enfoque",
+    "nav.contact": "Contacto",
+    "nav.cta": "Construyamos",
+    "hero.eyebrow": "LABORATORIO DE PRODUCTOS CENTRADO EN LAS PERSONAS",
+    "hero.title1": "Construye lo que",
+    "hero.title2": "ayuda.",
+    "hero.lead": "JAGO Labs es un estudio de productos que convierte problemas cotidianos en productos digitales pensados para hacer la vida más simple, segura y mejor.",
+    "hero.cta1": "Descubre nuestros productos",
+    "hero.cta2": "Nuestro enfoque",
+    "products.eyebrow": "NUESTROS PRODUCTOS",
+    "products.heading": "Soluciones para el día a día.",
+    "products.sub1": "Productos digitales enfocados en necesidades reales.",
+    "products.sub2": "Diseñados para las personas. Construidos con cuidado.",
+    "curumim.tagline": "Claridad Financiera",
+    "curumim.desc": "Finanzas personales de forma simple. Planifica, monitorea y toma decisiones más inteligentes con confianza.",
+    "curumim.link": "Saber más",
+    "curumim.balanceLabel": "Saldo total",
+    "curumim.income": "Ingresos",
+    "curumim.expenses": "Gastos",
+    "curumim.health": "Bien · 78%",
+    "beeaware.tagline": "Seguridad Comunitaria",
+    "beeaware.desc": "Comparte y consulta incidentes en tiempo real, de forma anónima. Juntos construimos comunidades más seguras.",
+    "beeaware.link": "Saber más",
+    "beeaware.newIncident": "+ Nuevo incidente",
+    "next.title": "Lo que viene",
+    "next.tagline": "Nuevos productos en desarrollo",
+    "next.desc": "JAGO Labs sigue explorando las dificultades de la vida real y convirtiendo los problemas correctos en productos útiles.",
+    "next.link": "Sigue nuestro trabajo",
+    "next.today": "Hoy",
+    "next.question": "¿Qué ayuda a seguir?",
+    "next.task1": "Observar el problema",
+    "next.task2": "Prototipar la solución",
+    "next.task3": "Construir con cuidado",
+    "next.task4": "Aprender y mejorar",
+    "values.title1": "Las personas primero",
+    "values.desc1": "Partimos de necesidades humanas reales y diseñamos con empatía.",
+    "values.title2": "Hecho para durar",
+    "values.desc2": "Arquitectura limpia, tecnología moderna y mejora continua.",
+    "values.title3": "Privacidad por diseño",
+    "values.desc3": "Respetamos tus datos y protegemos tu privacidad.",
+    "values.title4": "Siempre evolucionando",
+    "values.desc4": "Aprendemos, iteramos y construimos lo que ayuda a seguir.",
+    "cta.title1": "Construyamos",
+    "cta.title2": "lo que",
+    "cta.title3": "ayuda.",
+    "cta.lead": "Creamos productos digitales pensados con cuidado que resuelven problemas reales y mejoran el día a día.",
+    "cta.button": "Iniciar una conversación",
+    "footer.rights": "Todos los derechos reservados.",
+    "lang.label": "Idioma",
+    "contact.modalTitle": "Hablemos",
+    "contact.modalLead": "Cuéntanos un poco sobre ti y lo que tienes en mente — te responderemos pronto.",
+    "contact.nameLabel": "Nombre",
+    "contact.contactLabel": "Correo o teléfono",
+    "contact.messageLabel": "Mensaje",
+    "contact.send": "Enviar",
+    "contact.orDirect": "¿Prefieres escribir directamente?",
+    "about.meta.title": "Acerca de — JAGO Labs",
+    "about.meta.description": "Conoce JAGO Labs: un laboratorio de productos, tecnología y consultoría creado para simplificar decisiones y ampliar la autonomía de las personas.",
+    "about.eyebrow": "ACERCA DE JAGO LABS",
+    "about.title1": "Acerca de",
+    "about.title2": "JAGO Labs",
+    "about.intro": "<p><strong>JAGO Labs</strong> nació de una convicción simple: la tecnología debe hacer la vida más simple, las decisiones más conscientes y a las personas más capaces de elegir su propio camino.</p><p>El nombre <strong>JAGO</strong> surgió de la combinación de cuatro iniciales con un significado personal para su fundador. Algo que empezó como una referencia particular terminó convirtiéndose en una idea mucho más grande: construir una empresa que crea, experimenta y pone la tecnología al servicio de problemas reales.</p><p>De ahí viene el <strong>Labs</strong>.</p><p>Somos un laboratorio de ideas, productos y soluciones.</p><p>Creamos aplicaciones, desarrollamos productos digitales y ofrecemos consultoría empresarial y financiera para personas y organizaciones que creen que siempre existe una mejor manera de hacer las cosas.</p><p>No desarrollamos tecnología solo porque sea posible.</p><p>La desarrollamos cuando puede ser <strong>útil</strong>.</p>",
+    "about.h.whatWeDo": "Qué hacemos",
+    "about.whatWeDo": "<p>En JAGO Labs combinamos <strong>tecnología, producto, inteligencia artificial, finanzas y estrategia</strong> para convertir problemas cotidianos en soluciones más simples y accesibles.</p><p>Puede significar crear una aplicación que ayude a alguien a entender mejor sus propias finanzas.</p><p>Puede significar usar datos públicos e información de la comunidad para ayudar a una persona a tomar decisiones más conscientes sobre su seguridad y sus desplazamientos.</p><p>Puede significar ayudar a una empresa a simplificar procesos, mejorar su gestión financiera, automatizar tareas repetitivas o convertir datos complejos en decisiones más claras.</p><p>En todos los casos, la pregunta que nos guía es la misma:</p><p><strong>¿esto realmente mejora la vida de alguien?</strong></p><p>Si la respuesta es sí, probablemente haya algo que vale la pena construir.</p>",
+    "about.h.worldview": "Nuestra visión del mundo",
+    "about.worldview": "<p>Vivimos en un mundo cada vez más guiado por algoritmos, modelos, patrones y decisiones tomadas por terceros.</p><p>Constantemente nos dicen qué comprar, adónde ir, cómo trabajar, cuánto gastar e incluso qué debería significar el éxito.</p><p>En JAGO Labs creemos en otra dirección.</p><p><strong>Creemos en el individuo.</strong></p><p>Creemos que la tecnología debe ampliar la capacidad humana de tomar decisiones, no reemplazarla.</p><p>Los datos deben aportar contexto.</p><p>La inteligencia artificial debe ampliar posibilidades.</p><p>Las finanzas deben ofrecer libertad y claridad.</p><p>La tecnología debe devolver tiempo.</p><p>Y las buenas herramientas deben permitir que cada persona construya respuestas adecuadas a su propia realidad.</p><p>Por eso no queremos crear productos que simplemente le digan a la gente qué hacer.</p><p>Queremos crear herramientas que la ayuden a <strong>entender mejor, decidir mejor y actuar con más autonomía</strong>.</p>",
+    "about.h.mission": "Nuestra misión",
+    "about.mission": "<p>Nuestra misión es <strong>desarrollar tecnología y soluciones que simplifiquen decisiones, reduzcan fricciones y aumenten la autonomía de las personas y las organizaciones</strong>.</p><p>Lo hacemos a través de tres grandes frentes:</p><ul><li><strong>Productos digitales y aplicaciones</strong>, creados para resolver problemas reales del día a día.</li><li><strong>Consultoría empresarial y financiera</strong>, transformando complejidad, datos y procesos en decisiones más simples y eficientes.</li><li><strong>Tecnología e inteligencia artificial</strong>, aplicadas de forma práctica para automatizar tareas, ampliar capacidades y permitir que personas y empresas hagan más con menos esfuerzo.</li></ul><p>No creemos en la innovación como un fin en sí misma.</p><p>Para nosotros, la innovación solo tiene sentido cuando genera utilidad real.</p>",
+    "about.h.techPurpose": "Tecnología con propósito",
+    "about.techPurpose": "<p>Algunos de los problemas más importantes de nuestra vida no parecen, a primera vista, problemas de tecnología.</p><p>Cómo organizar mejor el dinero.</p><p>Cómo tomar decisiones con menos ansiedad.</p><p>Cómo identificar riesgos a nuestro alrededor.</p><p>Cómo elegir un camino más seguro.</p><p>Cómo eliminar horas de trabajo repetitivo.</p><p>Cómo convertir datos en información realmente útil.</p><p>Cómo permitir que organizaciones pequeñas accedan a herramientas antes reservadas para grandes empresas.</p><p>Es exactamente en esos espacios donde queremos trabajar.</p><p>Porque muchas veces una pequeña mejora en una herramienta puede significar una gran mejora en la rutina de alguien.</p>",
+    "about.h.experiment": "Experimentar. Aprender. Mejorar.",
+    "about.experiment": "<p>La palabra <strong>Labs</strong> también representa nuestra forma de trabajar.</p><p>Experimentamos.</p><p>Construimos.</p><p>Probamos.</p><p>Nos equivocamos.</p><p>Aprendemos.</p><p>Mejoramos.</p><p>Y ponemos productos reales en manos de personas reales.</p><p>Preferimos una solución simple que funciona a una idea extraordinaria que nunca sale del papel.</p><p>Este espíritu de experimentación permite que JAGO Labs explore diferentes áreas — de finanzas personales y seguridad comunitaria a inteligencia artificial, productividad y consultoría empresarial — manteniendo siempre el mismo principio:</p><p><strong>resolver problemas reales de manera inteligente, simple y humana.</strong></p>",
+    "about.h.future": "El futuro que queremos ayudar a construir",
+    "about.future": "<p>No creemos que el futuro deba ser definido solo por las empresas más grandes, los algoritmos más grandes o las instituciones con más datos.</p><p>Creemos que las personas también deben tener herramientas para participar en esa construcción.</p><ul><li>Herramientas para comprender.</li><li>Herramientas para comparar.</li><li>Herramientas para decidir.</li><li>Herramientas para colaborar.</li><li>Herramientas para cuidar unas de otras.</li></ul><p>Porque la tecnología no tiene que crear solo eficiencia.</p><p>También puede crear <strong>autonomía, seguridad, conciencia y oportunidad</strong>.</p><p>Y es exactamente ese tipo de tecnología el que queremos construir.</p>",
+    "about.closing": "<p class=\"about-brand\">JAGO Labs</p><p class=\"about-tagline\">Technology for better decisions.<br>Tools for more capable people.</p>",
+    "roadmap.meta.title": "Lo que viene — JAGO Labs",
+    "roadmap.meta.description": "Lo que JAGO Labs está construyendo: herramientas de finanzas y gestión para bares, campo, bufetes de abogados, creadores, startups y finanzas personales.",
+    "roadmap.eyebrow": "LO QUE VIENE",
+    "roadmap.title1": "Lo que",
+    "roadmap.title2": "viene.",
+    "roadmap.intro": "<p>JAGO Labs está en movimiento constante.</p><p>Nuestro trabajo no termina cuando se lanza un producto o se mejora un proceso. Observamos constantemente problemas reales, identificamos fricciones y convertimos esas oportunidades en nuevas soluciones.</p><p>Hoy, algunos de los frentes en desarrollo reflejan exactamente esa visión: usar tecnología, finanzas y gestión para hacer que las operaciones sean más simples, las decisiones más claras y los negocios más sostenibles.</p>",
+    "roadmap.v1.title": "Gestión financiera para bares y restaurantes",
+    "roadmap.v1.body": "<p>Estamos desarrollando soluciones para la organización financiera de bares y restaurantes, enfocadas en control simple, visibilidad y toma de decisiones.</p><p>Esto incluye aplicaciones ligeras para seguir ingresos, gastos, márgenes, flujo de caja y los principales indicadores del negocio — sin convertir la gestión en una tarea más compleja.</p><p>La idea es simple: <strong>darle al operador una visión clara de lo que está pasando en el negocio, justo en el momento en que hay que decidir.</strong></p>",
+    "roadmap.v2.title": "Tecnología para la gestión en el campo",
+    "roadmap.v2.body": "<p>También estamos explorando soluciones digitales para apoyar la gestión de propiedades y operaciones agrícolas directamente en el campo.</p><p>El objetivo es reunir, de forma práctica, información relevante sobre cultivos, condiciones del terreno, calidad del agua, registros operativos y seguimiento de actividades.</p><p>Más que digitalizar información, queremos ayudar a quienes están en el campo a convertir datos dispersos en conocimiento útil para decisiones mejores, más rápidas y más sostenibles.</p>",
+    "roadmap.v3.title": "Gestión financiera y eficiencia para bufetes de abogados",
+    "roadmap.v3.body": "<p>Estamos trabajando en soluciones para bufetes de abogados que combinan gestión financiera, mejora de procesos y mayor visibilidad sobre la operación.</p><p>Esto significa mirar ingresos, costos, rentabilidad, productividad, capacidad y flujo de trabajo de forma integrada.</p><p>La propuesta no es simplemente crear más controles.</p><p>Es ayudar al bufete a entender mejor dónde genera valor, dónde pierde eficiencia y cómo puede crecer de forma más estructurada.</p>",
+    "roadmap.v4.title": "Gestión financiera para creadores digitales y startups",
+    "roadmap.v4.body": "<p>Los nuevos modelos de negocio exigen nuevas formas de gestión.</p><p>Creadores digitales, influencers y startups suelen crecer muy rápido, antes de contar con una estructura financiera capaz de acompañar ese crecimiento.</p><p>Estamos desarrollando enfoques para simplificar ese proceso, aportando mayor claridad sobre ingresos, costos, impuestos, inversiones, flujo de caja, escenarios y sostenibilidad financiera.</p><p>Nuestro objetivo es permitir que quien está construyendo algo nuevo pueda seguir creando, sin perder el control del negocio en el camino.</p>",
+    "roadmap.v5.title": "Consultoría financiera personal y comportamiento financiero",
+    "roadmap.v5.body": "<p>También seguimos profundizando en un frente que está en el centro de la visión de JAGO Labs: la relación entre las personas y el dinero.</p><p>Nuestro enfoque de consultoría financiera personal parte de un principio fundamental:</p><p><strong>las finanzas no son solo matemática. Son comportamiento.</strong></p><p>La planificación financiera solo funciona cuando respeta la realidad, las prioridades y la forma en que cada persona toma decisiones.</p><p>Por eso, nuestro trabajo combina organización financiera, análisis de comportamiento y herramientas prácticas que ayudan a las personas a comprender mejor sus decisiones y construir una relación más consciente con el dinero.</p>",
+    "roadmap.h.sectors": "Diferentes sectores. El mismo propósito.",
+    "roadmap.sectorTags": "<span class=\"sector-tag\">Bares y restaurantes</span><span class=\"sector-tag\">Agricultura</span><span class=\"sector-tag\">Bufetes de abogados</span><span class=\"sector-tag\">Creadores digitales</span><span class=\"sector-tag\">Startups</span><span class=\"sector-tag\">Finanzas personales</span>",
+    "roadmap.closing": "<p>A primera vista, son mundos completamente distintos.</p><p>Para nosotros, hay un elemento en común entre todos ellos:</p><p><strong>personas tratando de tomar buenas decisiones en entornos complejos.</strong></p><p>Es exactamente ahí donde queremos estar.</p><p>Identificando el problema.</p><p>Simplificando el proceso.</p><p>Organizando la información.</p><p>Construyendo la herramienta.</p><p>Y devolviéndole a las personas lo que creemos que es una de las cosas más importantes que la tecnología puede ofrecer:</p><p><strong>más claridad para decidir y más autonomía para actuar.</strong></p><p>Esto es lo que viene a continuación.</p><p>Y probablemente muchas otras cosas que todavía ni imaginamos.</p>"
+  }
+};
+
+const SUPPORTED_LANGS = ["pt", "en", "es"];
+const DEFAULT_LANG = "en";
+
+function detectLang() {
+  const params = new URLSearchParams(window.location.search);
+  const fromQuery = params.get("lang");
+  if (fromQuery && SUPPORTED_LANGS.includes(fromQuery)) return fromQuery;
+
+  const stored = localStorage.getItem("jago-lang");
+  if (stored && SUPPORTED_LANGS.includes(stored)) return stored;
+
+  const browserLangs = navigator.languages || [navigator.language || DEFAULT_LANG];
+  for (const bl of browserLangs) {
+    const short = bl.slice(0, 2).toLowerCase();
+    if (SUPPORTED_LANGS.includes(short)) return short;
+  }
+  return DEFAULT_LANG;
+}
+
+function applyLang(lang) {
+  const dict = translations[lang] || translations[DEFAULT_LANG];
+  const prefix = document.body.dataset.metaPrefix || "";
+  const title = dict[prefix + "meta.title"] || dict["meta.title"];
+  const description = dict[prefix + "meta.description"] || dict["meta.description"];
+
+  document.documentElement.setAttribute("lang", lang);
+  document.title = title;
+
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc) metaDesc.setAttribute("content", description);
+
+  const ogTitle = document.querySelector('meta[property="og:title"]');
+  if (ogTitle) ogTitle.setAttribute("content", title);
+  const ogDesc = document.querySelector('meta[property="og:description"]');
+  if (ogDesc) ogDesc.setAttribute("content", description);
+
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const key = el.getAttribute("data-i18n");
+    if (dict[key] !== undefined) el.innerHTML = dict[key];
+  });
+
+  document.querySelectorAll(".lang-option").forEach(btn => {
+    const isActive = btn.getAttribute("data-lang") === lang;
+    btn.classList.toggle("active", isActive);
+    btn.setAttribute("aria-current", isActive ? "true" : "false");
+  });
+
+  localStorage.setItem("jago-lang", lang);
+
+  const url = new URL(window.location.href);
+  url.searchParams.set("lang", lang);
+  window.history.replaceState({}, "", url);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const initialLang = detectLang();
+  applyLang(initialLang);
+
+  document.querySelectorAll(".lang-option").forEach(btn => {
+    btn.addEventListener("click", () => applyLang(btn.getAttribute("data-lang")));
+  });
+});
