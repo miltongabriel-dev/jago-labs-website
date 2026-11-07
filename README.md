@@ -10,6 +10,9 @@ Domain: `jagolabs.tech` · Contact: `info@jagolabs.tech`
 - `about.html` — company story ("Sobre a JAGO Labs")
 - `whats-next.html` — upcoming products roadmap ("O que vem a seguir")
 - `impact.html` — 10%-of-revenue Amazon conservation commitment ("Nosso impacto"), teased on the homepage
+- `globiloo/index.html` — Globiloo's privacy policy (the kids' game), at `jagolabs.tech/globiloo/`: the URL given to
+  Google Play and the App Store, so keep it live and keep it in step with the policy inside the game
+  (`public/privacidade.html` in the game's repository)
 
 ## Files
 - `styles.css` — shared responsive styling for all pages
@@ -19,6 +22,7 @@ Domain: `jagolabs.tech` · Contact: `info@jagolabs.tech`
 - `assets/jago-logo.png`, `assets/jago-logo_white.png`, `assets/jago-symbol.png` — JAGO Labs brand
 - `assets/curumim-icon.png` — real Curumim app icon
 - `assets/beeaware-symbol.svg` / `assets/beeaware-symbol.png` — real BeeAware symbol
+- `assets/globiloo-icon.png` — Globiloo's app icon (192 px), shown on its privacy page
 - `jagolabs-sobre.md`, `jagolabs-sobre-v2.md`, `jagolabs-o-que-vem-a-seguir.md`, `jagolabs-10-porcento-amazonia.md` — source
   copy for the About/roadmap/impact pages. **Not meant to be deployed** — keep these out of the folder you upload to
   hosting (see below).
